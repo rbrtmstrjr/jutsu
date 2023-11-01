@@ -1,4 +1,5 @@
 import { useState } from "react";
+import image5 from "../images/jutsu.png";
 
 const blank = "_blank";
 const dataArray = [
@@ -320,9 +321,7 @@ export default function ImageBoards() {
           >
             <div className="w-1/3 flex justify-center items-center">
               <img
-                src={
-                  data.imageUrl === "" ? "./images/jutsu.png" : data.imageUrl
-                }
+                src={data.imageUrl === "" ? image5 : data.imageUrl}
                 alt=""
                 className="w-full h-auto"
               />

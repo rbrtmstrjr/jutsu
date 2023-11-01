@@ -1,4 +1,5 @@
 import { useState } from "react";
+import image5 from "../images/jutsu.png";
 
 const blank = "_blank";
 
@@ -142,9 +143,7 @@ export default function JutsuLinks() {
           >
             <div className="w-1/3 flex justify-center items-center">
               <img
-                src={
-                  data.imageUrl === "" ? "./images/jutsu.png" : data.imageUrl
-                }
+                src={data.imageUrl === "" ? image5 : data.imageUrl}
                 alt=""
                 className="w-full h-auto"
               />
