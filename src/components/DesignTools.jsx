@@ -1,4 +1,10 @@
 import { useState } from "react";
+import image1 from "../images/adobe-fonts.svg";
+import image2 from "../images/font-fabric.svg";
+import image3 from "../images/fonts-google.svg";
+import image4 from "../images/fonts-in-use.svg";
+import image5 from "../images/jutsu.png";
+import image6 from "../images/kunai.png";
 
 const blank = "_blank";
 const designTools = [
@@ -343,9 +349,7 @@ export default function DesignTools() {
             >
               <div className="w-1/3 flex justify-center items-center">
                 <img
-                  src={
-                    data.imageUrl === "" ? "./images/jutsu.png" : data.imageUrl
-                  }
+                  src={data.imageUrl === "" ? image5 : data.imageUrl}
                   alt=""
                   className="w-full h-auto"
                 />
