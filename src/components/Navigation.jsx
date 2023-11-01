@@ -6,7 +6,7 @@ const nav = [
   {
     id: 1,
     name: "Design Tools",
-    url: "/",
+    url: "/jutsu",
   },
   {
     id: 2,
