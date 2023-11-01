@@ -13,7 +13,7 @@ export default function App() {
     <>
       <Navigation />
       <Routes>
-        <Route path="/" element={<DesignTools />} />
+        <Route path="/jutsu" element={<DesignTools />} />
         <Route path="/jutsu-links" element={<JutsuLinks />} />
         <Route path="/custom-codes" element={<CustomCodes />} />
         <Route path="/image-board" element={<ImageBoards />} />
