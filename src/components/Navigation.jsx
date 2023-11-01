@@ -41,7 +41,7 @@ export default function Navigation() {
 
   return (
     <>
-      <main className="px-20 bg-[url('./images/akatsuki.jpg')] bg-no-repeat bg-cover bg-center pt-12">
+      <main className="px-20 bg-naruto bg-no-repeat bg-cover bg-center pt-12">
         <div className="flex">
           <div className="w-2/3">
             <nav className="flex justify-between text-white">

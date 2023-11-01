@@ -1,12 +1,12 @@
-import DesignTools from "./assets/components/DesignTools";
+import DesignTools from "./components/DesignTools";
 import { Route, Routes } from "react-router-dom";
-import Navigation from "./assets/components/Navigation";
-import JutsuLinks from "./assets/components/JutsuLinks";
-import CustomCodes from "./assets/components/CustomCodes";
+import Navigation from "./components/Navigation";
+import JutsuLinks from "./components/JutsuLinks";
+import CustomCodes from "./components/CustomCodes";
 import { ToastContainer } from "react-toastify";
-import ImageBoards from "./assets/components/ImageBoards";
-import Scorecard from "./assets/components/Scorecard";
-import Footer from "./assets/components/Footer";
+import ImageBoards from "./components/ImageBoards";
+import Scorecard from "./components/Scorecard";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
