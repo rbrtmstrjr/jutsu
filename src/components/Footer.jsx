@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <main className="px-20 py-24 bg-[url('./images/akatsuki.jpg')] bg-no-repeat bg-cover bg-center">
+    <main className="px-32 py-24 bg-[url('./images/akatsuki.jpg')] bg-no-repeat bg-cover bg-center">
       <div className="flex">
         <div className="w-1/3 flex flex-col gap">
           <h1 className="text-2xl font-bold text-white">

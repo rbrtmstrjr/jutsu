@@ -288,7 +288,7 @@ export default function DesignTools() {
 
   return (
     <>
-      <section className="px-20 pt-10 flex justify-between bg-slate-50">
+      <section className="px-32 pt-10 flex justify-between bg-slate-50">
         <h1 className="text-2xl">{`Filtered by: ${cat}`}</h1>
         <button
           id="dropdownHoverButton"
@@ -333,7 +333,7 @@ export default function DesignTools() {
         )}
       </section>
 
-      <section className="px-20 py-20 bg-slate-50">
+      <section className="px-32 py-20 bg-slate-50">
         <div className="flex gap-6 flex-wrap">
           {selectCategory.map((data) => (
             <a

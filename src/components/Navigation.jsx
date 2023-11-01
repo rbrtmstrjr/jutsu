@@ -42,7 +42,7 @@ export default function Navigation() {
 
   return (
     <>
-      <main className="px-20 bg-naruto bg-no-repeat bg-cover bg-center pt-12">
+      <main className="px-32 bg-naruto bg-no-repeat bg-cover bg-center pt-12">
         <div className="flex">
           <div className="w-2/3">
             <nav className="flex justify-between text-white">
@@ -59,7 +59,7 @@ export default function Navigation() {
               </div>
             </nav>
 
-            <nav className="pt-24">
+            <nav className="pt-28">
               <ul className="text-white text-sm font-bold flex cursor-pointer gap-px">
                 {nav.map((data) => (
                   <>
@@ -80,7 +80,7 @@ export default function Navigation() {
             </nav>
           </div>
           <div className="w-1/3 flex items-end">
-            <img src={image1} alt="" className="w-3/4" />
+            <img src={image1} alt="" className="w-4/6" />
           </div>
         </div>
       </main>

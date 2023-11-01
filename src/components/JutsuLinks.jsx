@@ -120,7 +120,7 @@ export default function JutsuLinks() {
     item.title.toLowerCase().includes(filterValue.toLowerCase())
   );
   return (
-    <section className="px-20 py-16 bg-slate-50">
+    <section className="px-32 py-16 bg-slate-50">
       <div className="flex justify-between">
         <h1 className="text-2xl mb-10">Different Links for Web Designer</h1>
         <div>
