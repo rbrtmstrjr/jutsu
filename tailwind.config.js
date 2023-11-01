@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        naruto: "url('/images/akatsuki.jpg')",
+        naruto: "url('./images/akatsuki.jpg')",
       },
       width: {
         slice: "31.8%",
