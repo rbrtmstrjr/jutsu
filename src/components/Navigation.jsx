@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import image1 from "../images/boss_lexi.png";
 
 const nav = [
   {
@@ -79,7 +80,7 @@ export default function Navigation() {
             </nav>
           </div>
           <div className="w-1/3 flex items-end">
-            <img src="./images/boss_lexi.png" alt="" className="w-3/4" />
+            <img src={image1} alt="" className="w-3/4" />
           </div>
         </div>
       </main>
