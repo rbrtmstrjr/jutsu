@@ -1,10 +1,5 @@
 import { useState } from "react";
-import image1 from "../images/adobe-fonts.svg";
-import image2 from "../images/font-fabric.svg";
-import image3 from "../images/fonts-google.svg";
-import image4 from "../images/fonts-in-use.svg";
 import image5 from "../images/jutsu.png";
-import image6 from "../images/kunai.png";
 
 const blank = "_blank";
 const designTools = [
