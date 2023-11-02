@@ -123,12 +123,14 @@ export default function Checklist() {
 
   return (
     <section className="px-32 py-16 bg-slate-50">
+      {items.length === 0 ? (
+        <h1 className="text-2xl mb-10">
+          Checklist Completed. For PR mo na yan lods. 👌
+        </h1>
+      ) : (
+        <h1 className="text-2xl mb-10">Check Once Completed.</h1>
+      )}
       <div className="flex flex-wrap gap-6">
-        {items.length === 0 && (
-          <h1 className="text-2xl mb-10">
-            Checklist Completed. For PR mo na yan lods. 👌
-          </h1>
-        )}
         {items.map((data) => (
           <div
             className="w-slice p-8 shadow-md rounded-md hover:bg-red-700 text-gray-500 hover:text-white hover:scale-105 ease-in transition cursor-pointer"
