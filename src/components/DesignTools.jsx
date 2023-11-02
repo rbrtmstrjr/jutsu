@@ -91,24 +91,6 @@ const designTools = [
     category: "typography",
   },
   {
-    id: 11,
-    title: "Svg Wave",
-    description: `A collection of forbidden jutsu na ginagamit ng isang parrot na
-      designer para lumakas. Shesssh !`,
-    url: "",
-    imageUrl: "",
-    category: "dividers",
-  },
-  {
-    id: 12,
-    title: "Svg Wave",
-    description: `A collection of forbidden jutsu na ginagamit ng isang parrot na
-      designer para lumakas. Shesssh !`,
-    url: "",
-    imageUrl: "",
-    category: "dividers",
-  },
-  {
     id: 13,
     title: "Coolors",
     description: "The super fast color schemes generator for cool designers.",
