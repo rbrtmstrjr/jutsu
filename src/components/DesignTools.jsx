@@ -42,7 +42,7 @@ const designTools = [
     description:
       "Discover fonts and design like a professional with Typography.com.",
     url: "https://www.typography.com/",
-    imageUrl: "",
+    imageUrl: "./images/typography.svg",
     category: "typography",
   },
   {
@@ -51,7 +51,7 @@ const designTools = [
     description:
       "Free fonts for commercial use. Download thousands of high-quality free fonts.",
     url: "https://www.fontsquirrel.com/",
-    imageUrl: "",
+    imageUrl: "./images/font-squirrel.svg",
     category: "typography",
   },
   {
@@ -60,7 +60,7 @@ const designTools = [
     description:
       "An AI-powered font pairing generator that allows you to adjust the contrast and width of suggested fonts.",
     url: "https://fontjoy.com",
-    imageUrl: "",
+    imageUrl: "./images/font-joy.svg",
     category: "typography",
   },
   {
@@ -78,7 +78,7 @@ const designTools = [
     description:
       "This tool helps you find font pairings by suggesting complementary fonts for your selected typeface.",
     url: "https://www.typegenius.com",
-    imageUrl: "",
+    imageUrl: "./images/canva.svg",
     category: "typography",
   },
   {
@@ -87,7 +87,7 @@ const designTools = [
     description:
       "A simple tool that suggests font pairings using Google Fonts.",
     url: "https://fontpair.co",
-    imageUrl: "",
+    imageUrl: "./images/font-pair.svg",
     category: "typography",
   },
   {
