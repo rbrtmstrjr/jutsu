@@ -1,3 +1,8 @@
+import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Confetti from "react-confetti";
+
 const checklist = [
   { id: 1, name: "Check if HIPAA/Canadian account" },
   { id: 2, name: "CCF" },
@@ -84,36 +89,66 @@ const checklist = [
 ];
 
 export default function Checklist() {
+  const [showConfetti, setShowConfetti] = useState(false);
+  const [items, setItems] = useState(checklist);
+
+  useEffect(() => {
+    if (items.length === 0) {
+      setShowConfetti(true);
+    } else {
+      setShowConfetti(false);
+    }
+  }, [items]);
+
+  const handleCheckboxChange = (id, name) => {
+    const message = `${name} Done.`;
+    const itemToRemove = items.find((item) => item.id === id);
+    toast.success(message, {
+      style: {
+        background: "#DD6464",
+      },
+    });
+    if (itemToRemove) {
+      // Add a delay of 1 second before removing the item
+      setTimeout(() => {
+        setItems((prevItems) => prevItems.filter((item) => item.id !== id));
+      }, 1000);
+    }
+  };
+
   return (
     <section className="px-32 py-16 bg-slate-50">
       <div className="flex flex-wrap gap-6">
-        {checklist.map((data) => (
-          <div className="w-slice p-4 shadow-md rounded-md" key={data.id}>
-            <div className="flex items-center mb-4">
+        {items.length === 0 && (
+          <h1 className="text-2xl mb-10">
+            Checklist Completed. For PR mo na yan lods. 👌
+          </h1>
+        )}
+        {items.map((data) => (
+          <div
+            className="w-slice p-4 shadow-md rounded-md hover:bg-red-700 text-gray-500 hover:text-white hover:scale-105 ease-in transition cursor-pointer"
+            key={data.id}
+          >
+            <div className="flex mb-4">
               <div className="w-6 h-6">
                 <input
                   id={data.id}
+                  checked={data.status}
                   type="checkbox"
                   value=""
                   className="w-6 h-6 text-blue-600 bg-gray-100 border-gray-300 rounded-lg focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  onChange={() => handleCheckboxChange(data.id, data.name)}
                 />
               </div>
 
-              <label
-                htmlFor={data.id}
-                className="ml-4 text-sm font-medium text-gray-900 dark:text-gray-600"
-              >
+              <label htmlFor={data.id} className="ml-4 text-sm font-medium">
                 {data.name}
               </label>
             </div>
           </div>
         ))}
       </div>
-      <div className="mt-8">
-        <button className="text-white bg-red-700 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-700">
-          Submit
-        </button>
-      </div>
+      {showConfetti && <Confetti />}
     </section>
   );
 }
