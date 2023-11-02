@@ -126,10 +126,10 @@ export default function Checklist() {
         )}
         {items.map((data) => (
           <div
-            className="w-slice p-4 shadow-md rounded-md hover:bg-red-700 text-gray-500 hover:text-white hover:scale-105 ease-in transition cursor-pointer"
+            className="w-slice p-8 shadow-md rounded-md hover:bg-red-700 text-gray-500 hover:text-white hover:scale-105 ease-in transition cursor-pointer"
             key={data.id}
           >
-            <div className="flex mb-4">
+            <div className="flex items-center">
               <div className="w-6 h-6">
                 <input
                   id={data.id}
