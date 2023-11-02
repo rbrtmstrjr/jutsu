@@ -62,19 +62,16 @@ export default function Navigation() {
             <nav className="pt-28">
               <ul className="text-white text-sm font-bold flex cursor-pointer gap-px">
                 {nav.map((data) => (
-                  <>
-                    <Link to={data.url}>
-                      <li
-                        className={`py-3 px-4 ${
-                          data.id === navs ? "text-red-700 bg-white" : ""
-                        } rounded-t-md hover:bg-white hover:text-red-700`}
-                        key={data.id}
-                        onClick={() => selectNav(data.id)}
-                      >
-                        {data.name}
-                      </li>
-                    </Link>
-                  </>
+                  <Link to={data.url} key={data.id}>
+                    <li
+                      className={`py-3 px-4 ${
+                        data.id === navs ? "text-red-700 bg-white" : ""
+                      } rounded-t-md hover:bg-white hover:text-red-700`}
+                      onClick={() => selectNav(data.id)}
+                    >
+                      {data.name}
+                    </li>
+                  </Link>
                 ))}
               </ul>
             </nav>

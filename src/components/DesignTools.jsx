@@ -64,7 +64,7 @@ const designTools = [
     category: "typography",
   },
   {
-    id: 6,
+    id: 8,
     title: "Font Combinator",
     description:
       "An online tool that helps you experiment with different font combinations to see how they look together.",
@@ -82,7 +82,7 @@ const designTools = [
     category: "typography",
   },
   {
-    id: 8,
+    id: 10,
     title: "Font Pair",
     description:
       "A simple tool that suggests font pairings using Google Fonts.",
@@ -91,25 +91,25 @@ const designTools = [
     category: "typography",
   },
   {
-    id: 9,
-    title: "Svg Wave",
-    description: `A collection of forbidden jutsu na ginagamit ng isang parrot na
-      designer para lumakas. Shesssh !`,
-    url: "",
-    imageUrl: "",
-    category: "dividers",
-  },
-  {
-    id: 10,
-    title: "Svg Wave",
-    description: `A collection of forbidden jutsu na ginagamit ng isang parrot na
-      designer para lumakas. Shesssh !`,
-    url: "",
-    imageUrl: "",
-    category: "dividers",
-  },
-  {
     id: 11,
+    title: "Svg Wave",
+    description: `A collection of forbidden jutsu na ginagamit ng isang parrot na
+      designer para lumakas. Shesssh !`,
+    url: "",
+    imageUrl: "",
+    category: "dividers",
+  },
+  {
+    id: 12,
+    title: "Svg Wave",
+    description: `A collection of forbidden jutsu na ginagamit ng isang parrot na
+      designer para lumakas. Shesssh !`,
+    url: "",
+    imageUrl: "",
+    category: "dividers",
+  },
+  {
+    id: 13,
     title: "Coolors",
     description: "The super fast color schemes generator for cool designers.",
     url: "https://coolors.co/",
@@ -117,7 +117,7 @@ const designTools = [
     category: "color",
   },
   {
-    id: 12,
+    id: 14,
     title: "Adobe Color",
     description:
       "Create color schemes with the color wheel or browse thousands of color combinations.",
@@ -126,7 +126,7 @@ const designTools = [
     category: "color",
   },
   {
-    id: 13,
+    id: 15,
     title: "Color Hunt",
     description:
       "Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.",
@@ -135,7 +135,7 @@ const designTools = [
     category: "color",
   },
   {
-    id: 14,
+    id: 16,
     title: "Paletton",
     description:
       "The color scheme designer application and the color scheme generator for your website.",
@@ -144,7 +144,7 @@ const designTools = [
     category: "color",
   },
   {
-    id: 15,
+    id: 17,
     title: "Material Design",
     description:
       "Create, share, and apply color palettes to your UI, as well as measure the accessibility of any color combination.",
@@ -153,7 +153,7 @@ const designTools = [
     category: "color",
   },
   {
-    id: 16,
+    id: 18,
     title: "SVG Wave",
     description: "Create SVG wave shapes and dividers.",
     url: "https://www.svgwave.in/",
@@ -161,7 +161,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 17,
+    id: 19,
     title: "Haikei",
     description:
       "A web based design tools to generate unique svg design assets for websites",
@@ -170,7 +170,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 18,
+    id: 20,
     title: "Shape Divider",
     description:
       "Create customizable SVG shape dividers for your website sections.",
@@ -179,7 +179,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 19,
+    id: 21,
     title: "SVG Shape Generator",
     description:
       "A free svg shape generator to create beautiful svg blob shapes.",
@@ -188,7 +188,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 20,
+    id: 22,
     title: "Shape Dividers - Cesis",
     description: "A free svg shape generator for your web design",
     url: "https://cesis.co/shape-divider/",
@@ -196,7 +196,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 21,
+    id: 23,
     title: "Shapedividers.com",
     description: "Generate vertical responsive & animated shape easily.",
     url: "https://shapedividers.com/",
@@ -204,7 +204,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 22,
+    id: 24,
     title: "Elegant Themes",
     description: "Visualize and edit SVG paths easily with this tool.",
     url: "https://www.elegantthemes.com/preview/Divi/shape-dividers/",
@@ -212,7 +212,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 23,
+    id: 25,
     title: "Get Waves",
     description: "A free svg wave generator to make unique waves.",
     url: "https://getwaves.io/",
@@ -220,7 +220,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 24,
+    id: 26,
     title: "SVG Stripe",
     description: "Svg stripe genrator for web dividers",
     url: "https://svg-stripe-generator.web.app/",
@@ -228,7 +228,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 25,
+    id: 27,
     title: "Css Section Separator",
     description: "Separate your section with this cool dividers.",
     url: "https://wweb.dev/resources/css-separator-generator/",
@@ -236,7 +236,7 @@ const designTools = [
     category: "dividers",
   },
   {
-    id: 26,
+    id: 28,
     title: "Redpanther.io",
     description: "Complete free 50 sahpe dividers to place on your website.",
     url: "https://www.redpanther.io/blog/shape-dividers",
