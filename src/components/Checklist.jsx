@@ -92,6 +92,11 @@ export default function Checklist() {
   const [showConfetti, setShowConfetti] = useState(false);
   const [items, setItems] = useState(checklist);
 
+  const capitalizeFirstLetter = (str) => {
+    const lowercase = str.toLowerCase();
+    return str.toLowerCase().charAt(0).toUpperCase() + lowercase.slice(1);
+  };
+
   useEffect(() => {
     if (items.length === 0) {
       setShowConfetti(true);
@@ -142,7 +147,7 @@ export default function Checklist() {
               </div>
 
               <label htmlFor={data.id} className="ml-4 text-sm font-medium">
-                {data.name}
+                {capitalizeFirstLetter(data.name)}
               </label>
             </div>
           </div>
