@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import ImageBoards from "./components/ImageBoards";
 import Scorecard from "./components/Scorecard";
 import Footer from "./components/Footer";
+import Checklist from "./components/Checklist";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/custom-codes" element={<CustomCodes />} />
         <Route path="/image-board" element={<ImageBoards />} />
         <Route path="/scorecard" element={<Scorecard />} />
+        <Route path="/checklist" element={<Checklist />} />
       </Routes>
       <Footer />
       <ToastContainer
