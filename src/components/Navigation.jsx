@@ -64,7 +64,7 @@ export default function Navigation() {
                 {nav.map((data) => (
                   <Link to={data.url} key={data.id}>
                     <li
-                      className={`py-3 px-4 ${
+                      className={`py-3 px-4 transition ease-in ${
                         data.id === navs ? "text-red-700 bg-white" : ""
                       } rounded-t-md hover:bg-white hover:text-red-700`}
                       onClick={() => selectNav(data.id)}

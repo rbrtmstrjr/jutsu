@@ -303,7 +303,7 @@ export default function ImageBoards() {
         <div>
           <input
             type="text"
-            className="w-64 py-2 px-5 bg-white rounded-full border-2 border-gray-300"
+            className="w-64 py-3 px-5 bg-white rounded-full border border-gray-500 focus:outline-red-700"
             placeholder="Search"
             value={filterValue}
             onChange={(e) => setFilterValue(e.target.value)}
