@@ -1,37 +1,51 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import image1 from "../images/larry.png";
+import {
+  FiLayout,
+  FiCheck,
+  FiShare2,
+  FiStar,
+  FiCalendar,
+  FiImage,
+} from "react-icons/fi";
 
 const nav = [
   {
     id: 1,
     name: "Design Tools",
     url: "/jutsu/",
+    icon: <FiLayout />,
   },
   {
     id: 2,
     name: "Checklist",
     url: "/checklist",
+    icon: <FiCheck />,
   },
   {
     id: 3,
     name: "Jutsu Links",
     url: "/jutsu-links",
+    icon: <FiShare2 />,
   },
   {
     id: 4,
     name: "Custom Codes",
     url: "/custom-codes",
+    icon: <FiStar />,
   },
   {
     id: 5,
     name: "Scorecard",
     url: "/scorecard",
+    icon: <FiCalendar />,
   },
   {
     id: 6,
     name: "Image Boards",
     url: "/image-board",
+    icon: <FiImage />,
   },
 ];
 export default function Navigation() {
@@ -64,11 +78,12 @@ export default function Navigation() {
                 {nav.map((data) => (
                   <Link to={data.url} key={data.id}>
                     <li
-                      className={`py-3 px-4 transition ease-in ${
+                      className={`py-3 px-4 flex gap-2 items-center transition ease-in ${
                         data.id === navs ? "text-red-700 bg-white" : ""
                       } rounded-t-md hover:bg-white hover:text-red-700`}
                       onClick={() => selectNav(data.id)}
                     >
+                      <span>{data.icon}</span>
                       {data.name}
                     </li>
                   </Link>
