@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import image1 from "../images/larry.png";
+import image1 from "../images/boss_lex.png";
 import {
   FiLayout,
   FiCheck,
@@ -56,9 +56,9 @@ export default function Navigation() {
 
   return (
     <>
-      <main className="px-32 bg-naruto bg-no-repeat bg-cover bg-center pt-12">
+      <main className="xl:px-20 2xl:px-32 bg-naruto bg-no-repeat bg-cover bg-center pt-12">
         <div className="flex">
-          <div className="w-2/3">
+          <div className="xl:w-9/12 2xl:w-2/3">
             <nav className="flex justify-between text-white">
               <div>
                 <img src="./images/kunai.svg" className="h-20" alt="" />
@@ -91,8 +91,8 @@ export default function Navigation() {
               </ul>
             </nav>
           </div>
-          <div className="w-1/3 flex items-end">
-            <img src={image1} alt="" className="w-4/6" />
+          <div className="xl:w-3/12 2xl:w-1/3 flex items-end">
+            <img src={image1} alt="" className="xl:w-full 2xl:w-4/5" />
           </div>
         </div>
       </main>

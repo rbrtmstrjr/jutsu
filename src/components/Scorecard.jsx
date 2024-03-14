@@ -1,6 +1,6 @@
 export default function Scorecard() {
   return (
-    <section className="px-32 py-16 bg-slate-50">
+    <section className="xl:px-20 2xl:px-32 py-16 bg-slate-50">
       <div className="flex justify-between">
         <h1 className="text-2xl mb-10">Scorecard Computation - (Inprogress)</h1>
         <h1 className="text-2xl mb-10">

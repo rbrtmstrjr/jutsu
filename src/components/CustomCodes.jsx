@@ -67,7 +67,7 @@ export default function CustomCodes() {
   };
 
   return (
-    <section className="px-32 py-16 bg-slate-50">
+    <section className="xl:px-20 2xl:px-32 py-16 bg-slate-50">
       <h1 className="text-2xl mb-10">Safe Custom Codes. (Click to copyrist)</h1>
       <div className="flex gap-6 flex-wrap">
         {customCodes.map((data) => (

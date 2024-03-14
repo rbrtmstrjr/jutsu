@@ -295,7 +295,7 @@ export default function ImageBoards() {
   );
 
   return (
-    <section className="px-32 py-16 bg-slate-50">
+    <section className="xl:px-20 2xl:px-32  py-16 bg-slate-50">
       <div className="flex justify-between">
         {filteredArray.length === 0 ? (
           <h1 className="text-2xl mb-10">No Result Found.</h1>

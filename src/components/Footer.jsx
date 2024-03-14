@@ -1,15 +1,12 @@
 export default function Footer() {
   return (
-    <main className="px-32 py-24 bg-[url('./images/akatsuki.jpg')] bg-no-repeat bg-cover bg-center">
+    <main className="xl:px-20 2xl:px-32 py-24 bg-[url('./images/akatsuki.jpg')] bg-no-repeat bg-cover bg-center">
       <div className="flex">
         <div className="w-1/3 flex flex-col gap">
           <h1 className="text-2xl font-bold text-white">
             BRRT-BRRT JUTSU 2023 🔥
           </h1>
           <h2 className="text-2xl font-thin text-white">MADE WITH TEAM EMCY</h2>
-          <p className="text-white text-sm">
-            Kung di mo kayang ispotcheck, Ipa Spot mo na sa PR.
-          </p>
         </div>
         <div className="w-2/3 flex gap-2">
           <div className="w-1/3">
