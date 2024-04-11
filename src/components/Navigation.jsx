@@ -66,9 +66,9 @@ export default function Navigation() {
                   Forbidden Jutsu (Remastered) 🔥
                 </h1>
                 <p className="text-sm mt-3">
-                  A collection of jutsunism na ginagamit ng isang mahinang
-                  nilalang para lumakas. <br /> The world shall know pain.
-                  Sheessssh !
+                  A collection of different useful site and extension to make
+                  your web design job much easier. <br /> The world shall know
+                  pain.
                 </p>
               </div>
             </nav>
